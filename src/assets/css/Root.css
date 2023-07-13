@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Volkhov:wght@400;700&display=swap');
+
+:root {
+
+    --ff-poppins: 'poppins';
+    --ff-montserrat: 'Montserrat';
+    --ff-OpenSans: 'Open Sans';
+    --ff-volkhov: 'Volkhov';
+
+    --fs-4xl: 84px;
+    --fs-3xl: 50px;
+    --fs-2xl: 44px;
+    --fs-xll: 33px;
+    --fs-ll: 21px;
+    --fs-xxl: 20px;
+    --fs-xl: 18px;
+    --fs-xlg: 17px;
+    --fs-lgx: 16px;
+    --fs-mlg: 14px;
+    --fs-lg: 13px;
+
+
+    --font-weight-xxl: 800;
+    --font-weight-xl: 700;
+    --font-weight-lg: 600;
+    --font-weight-md: 500;
+    --font-weight-sm: 400;
+
+
+    --text-color-dark: #212832;
+    --text-color-orange: #df6951;
+    --text-color-primary: #181e4b;
+    --text-color-secondary: #5e6282;
+    --text-color-white: #ffffff;
+    --text-color-light: #686d77;
+    --text-color-extra-dark: #14183e;
+    --text-color-success: #1e1d4c;
+    --text-color-black: #080809;
+    --text-color-grey: #84829a;
+    --text-color-voilet: #8a79df;
+    --text-color-navy: #39425d;
+
+}
+
+
+
+.fs-13 {
+    font-size: var(--fs-lg);
+}
+
+.fs-14 {
+    font-size: var(--fs-mlg);
+}
+
+.fs-17 {
+    font-size: var(--fs-xlg);
+}
+
+.fs-16 {
+    font-size: var(--fs-lgx);
+}
+
+.fs-18 {
+    font-size: var(--fs-xl);
+}
+
+.fs-20 {
+    font-size: var(--fs-xxl);
+}
+
+.fs-21 {
+    font-size: var(--fs-ll);
+}
+
+.fs-33 {
+    font-size: var(--fs-xll);
+}
+
+.fs-44 {
+    font-size: var(--fs-2xl);
+}
+
+.fs-50 {
+    font-size: var(--fs-3xl);
+}
+
+.fs-84 {
+    font-size: var(--fs-4xl);
+}
+
+.fw-400 {
+    font-weight: var(--font-weight-sm);
+}
+
+.fw-500 {
+    font-weight: var(--font-weight-md);
+}
+
+.fw-600 {
+    font-weight: var(--font-weight-lg);
+}
+
+.fw-700 {
+    font-weight: var(--font-weight-xl);
+}
+
+.fw-800 {
+    font-weight: var(--font-weight-xxl);
+}
+
+.fc-dark {
+    color: var(--text-color-dark);
+}
+
+.fc-orange {
+    color: var(--text-color-orange);
+}
+
+.fc-primary {
+    color: var(--text-color-primary);
+}
+
+.fc-secondary {
+    color: var(--text-color-secondary);
+}
+
+.fc-white {
+    color: var(--text-color-white);
+}
+
+.fc-light {
+    color: var(--text-color-light);
+}
+
+.fc-extra-dark {
+    color: var(--text-color-extra-dark);
+}
+
+.fc-success {
+    color: var(--text-color-success);
+}
+
+.fc-black {
+    color: var(--text-color-black);
+}
+
+.fc-grey {
+    color: var(--text-color-grey);
+}
+
+.fc-voilet {
+    color: var(--text-color-voilet);
+}
+
+.fc-navy {
+    color: var(--text-color-navy);
+}
+
+.ff-poppins {
+    font-family: var(--ff-poppins);
+}
+
+.ff-montserrat {
+    font-family: var(--ff-montserrat);
+}
+
+.ff-open-sans {
+    font-family: var(--ff-OpenSans);
+}
+
+.ff-volkhov {
+    font-family: var(--ff-volkhov);
+}
+
+@media (max-width:992px) {
+    :root {
+        --fs-4xl: 64px;
+        --fs-3xl: 44px;
+        --fs-2xl: 44px;
+        --fs-xll: 33px;
+        --fs-ll: 21px;
+        --fs-xxl: 20px;
+        --fs-xl: 18px;
+        --fs-xlg: 17px;
+        --fs-mlg: 14px;
+        --fs-lg: 13px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --fs-4xl: 54px;
+        --fs-3xl: 38px;
+        --fs-2xl: 44px;
+        --fs-xll: 33px;
+        --fs-ll: 21px;
+        --fs-xxl: 20px;
+        --fs-xl: 18px;
+        --fs-xlg: 17px;
+        --fs-mlg: 14px;
+        --fs-lg: 13px;
+    }
+}

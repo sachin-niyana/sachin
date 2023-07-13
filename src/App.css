@@ -24,6 +24,10 @@
   color: white;
 }
 
+.max-w-545 {
+  max-width: 645px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -32,7 +36,393 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+
+.my-container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.bg-blacke {
+  background-color: #ff478f;
+}
+
+.gap-56 {
+  gap: 56px;
+}
+
+.arrow-1 {
+  width: 13px;
+  height: 7px;
+}
+
+.women {
+  max-width: 550px;
+  max-height: 550px;
+}
+
+.temple {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-1 {
+  border: solid 2px #212832;
+  background-color: transparent;
+  padding: 9px 21px;
+  border-radius: 8px;
+}
+
+.max-w-180 {
+  max-width: 170px;
+}
+
+.btn-2 {
+  border: 1px solid #f1a501;
+  background-color: #f1a501;
+  border-radius: 14px;
+  padding: 18px 26px;
+}
+
+.max-w-207 {
+  max-width: 207px;
+}
+
+select {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.plus-1 {
+  position: absolute;
+  right: 5%;
+}
+
+.decore {
+  position: absolute;
+  right: -60px;
+  top: 26%;
+  z-index: -1;
+}
+
+.card-1 {
+  border-radius: 36px;
+  width: 250px;
+  height: 331px;
+  background-color: #ffffff;
+  transition: 300ms linear;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card-1:hover {
+  box-shadow: 0px 38px 85px -61px hsla(0, 5%, 7%, 0.416) !important;
+}
+
+.hover-img {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  opacity: 0;
+  width: 80px;
+}
+
+.mt-40:hover .hover-img {
+  opacity: 1;
+  z-index: -1;
+  bottom: -7%;
+  left: -9%;
+  transition: all 300ms linear;
+}
+
+.max-w-500 {
+  max-width: 500px;
+}
+
+.max-w-320 {
+  max-width: 320px;
+}
+
+
+.card-img {
+  width: 70px;
+  height: 70px;
+}
+
+.arrow-img {
+  width: 20px;
+  height: 20px;
+}
+
+.home {
+  width: 16px;
+  height: 16px;
+}
+
+.box {
+  width: 67px;
+  height: 68px;
+}
+
+.card-4 {
+  max-width: 263px;
+  border-radius: 18px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px rgba(27, 28, 29, 0.159);
+  padding: 18px 20px;
+  position: absolute;
+  top: 50%;
+  right: -31%;
+  opacity: 0 !important;
+}
+
+.card-2 {
+  max-width: 315px;
+  border-radius: 28px;
+  box-shadow: 0px 0px 15px rgba(27, 28, 29, 0.159);
+  transition: all 300ms linear;
+}
+
+.card-2:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(7, 7, 7, 0.159);
+}
+
+.card-3 {
+  max-width: 370px !important;
+  padding: 20px 24px;
+  border-radius: 26px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px rgba(27, 28, 29, 0.159);
+}
+
+.card-3:hover .card-4 {
+  opacity: 1 !important;
+}
+
+.card-5 {
+  max-width: 504px;
+  border-radius: 12px;
+  padding-top: 28px;
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-bottom: 34px;
+  background-color: #ffffff;
+  box-shadow: 8px 8px 15px -7px rgba(27, 28, 29, 0.159);
+}
+
+.men {
+  position: absolute;
+  top: -8%;
+  left: -8%;
+}
+
+.plus-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.timg {
+  position: absolute;
+  z-index: -1;
+  right: -22%;
+  top: 18%;
+}
+
+.exon {
+  max-width: 200px;
+  max-height: 75px;
+  background-color: white;
+  padding: 12px;
+  filter: grayscale(1);
+}
+
+.exon:hover {
+  box-shadow: 0px 0px 8px rgba(29, 29, 29, 0.159);
+  filter: grayscale(0);
+}
+
+.exon-2 {
+  max-width: 200px;
+  max-height: 60px;
+  background-color: white;
+  padding: 12px;
+  filter: grayscale(1);
+}
+
+.exon-2:hover {
+  box-shadow: 0px 0px 8px rgba(29, 29, 29, 0.159);
+  filter: grayscale(0);
+}
+
+.card-6 {
+  background-color: #f9f7fe;
+  max-width: 1170px;
+  border-radius: 129px 20px 20px 20px;
+}
+
+.max-w-880 {
+  max-width: 880px;
+}
+
+.email {
+  background-color: #ffffff;
+  padding-left: 20px;
+  width: 100%;
+  max-width: 421px;
+  border-radius: 12px;
+  height: 68px;
+  border: none;
+  box-shadow: 0px 0px 8px rgba(29, 29, 29, 0.159);
+}
+
+.email-2 {
+  width: 70%;
+  height: 40px;
+  border: none;
+}
+
+.button-1 {
+  background-color: #ff896b;
+  padding: 22px 50px;
+  border-radius: 12px;
+  border: none;
+}
+
+.side {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+}
+
+.round-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.1;
+}
+
+.round-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.telygram {
+  position: absolute;
+  right: -2%;
+  top: -7%;
+}
+
+.bg-shadow {
+  position: absolute;
+}
+
+@media (max-width: 992px) {
+  label[for="iconbox"] {
+
+    cursor: pointer;
+    width: 35px;
+    height: 25px;
+    display: flex;
+    z-index: 3;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  label[for="iconbox"]>span {
+    width: 100%;
+    height: 4px;
+    background-color: blue;
+    z-index: 3;
+  }
+
+  .lg-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #01C8FF;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    left: -100%;
+    opacity: 1;
+    pointer-events: none;
+    transition: all 200ms linear;
+  }
+
+  input[type="checkbox"]:checked+div.lg-screen {
+    opacity: 1;
+    left: 0;
+    pointer-events: all;
+  }
+}
+
+@media (max-width:576px) {
+  .button-1 {
+    background-color: #ff896b;
+    padding: 18px 40px;
+    border-radius: 12px;
+    border: none;
+  }
+
+  .card-4 {
+    max-width: 263px;
+    border-radius: 18px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px rgba(27, 28, 29, 0.159);
+    padding: 18px 20px;
+    position: absolute;
+    top: 50%;
+    right: -31%;
+    opacity: 0 !important;
+  }
+
+  .timg {
+    position: absolute;
+    z-index: -1;
+    right: -22%;
+    top: 18%;
+    display: none;
+  }
+
+  .round-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.1;
+    display: none;
+  }
+
+  .round-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
   }
 }
