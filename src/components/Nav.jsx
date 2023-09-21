@@ -5,6 +5,7 @@ import women from '../assets/png/women-img.png';
 import side from '../assets/png/side-img.png';
 import decore from '../assets/png/Decore.png';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 const Nav = () => {
     return (
         <div className=' overflow-hidden'>
@@ -22,12 +23,12 @@ const Nav = () => {
                             </label>
                             <input type="checkbox" id='iconbox' hidden className='d-none' />
                             <div className='d-flex align-items-center lg-screen  gap-lg-5 gap-4 '>
-                                <a href="#"><h3 className='fw-400 fs-17 fc-dark mb-0'>Desitnations</h3></a>
-                                <a href="#"><h3 className='fw-400 fs-17 fc-dark mb-0'>Hotels</h3></a>
-                                <a href="#"><h3 className='fw-400 fs-17 fc-dark mb-0'>Flights</h3></a>
-                                <a href="#"><h3 className='fw-400 fs-17 fc-dark mb-0'>Bookings</h3></a>
-                                <a href="#"><h3 className='fw-500 fs-17 fc-dark mb-0'>Login</h3></a>
-                                <a href="#"><button className='fw-500 fs-17 fc-dark mb-0 btn-1'>Sign up</button></a>
+                                <h3><Link className='fw-400 fs-17 fc-dark mb-0'>Desitnations</Link></h3>
+                                <h3><Link className='fw-400 fs-17 fc-dark mb-0'>Hotels</Link></h3>
+                                <h3><Link className='fw-400 fs-17 fc-dark mb-0'>Flights</Link></h3>
+                                <h3><Link className='fw-400 fs-17 fc-dark mb-0'>Bookings</Link></h3>
+                                <h3><Link className='fw-500 fs-17 fc-dark mb-0'>Login</Link></h3>
+                                <Link><button className='fw-500 fs-17 fc-dark mb-0 btn-1'>Sign up</button></Link>
                                 <select className='fw-500 fs-17 fc-dark' name='language' id='language'>
                                     <option className='fw-500 fs-17 fc-dark'>En</option>
                                     <option className='fw-500 fs-17 fc-dark'>Hi</option>

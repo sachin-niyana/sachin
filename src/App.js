@@ -13,6 +13,9 @@ import Section_four from './components/Section_four';
 import Section_five from './components/Section_five';
 import Section_six from './components/Section_six';
 import Footer from './components/Footer';
+import { EmailJSResponseStatus } from "@emailjs/browser";
+import Myemail from "./components/Myemail";
+
 
 function App() {
   useEffect(() => {
@@ -21,14 +24,15 @@ function App() {
   }, []);
   return (
     <div>
-      <Nav />
+      {/* <Nav />
       <Section_one />
       <Section_two />
       <Section_three />
       <Section_four />
       <Section_five />
-      <Section_six />
-      <Footer />
+      <Section_six /> */}
+      {/* <Footer /> */}
+      <Myemail />
     </div>
   );
 }
